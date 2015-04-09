@@ -9,5 +9,16 @@
   "scripts": {
     "start": "node index.js"
   },
-  "repository": "http://www.github.com/ross-pfahler/express-echo-server"
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/ross-pfahler/express-echo-server"
+  },
+  "description": "Exports a function that when given a port provides routes that echo what is passed in.",
+  "devDependencies": {},
+  "keywords": [
+    "express",
+    "testing"
+  ],
+  "author": "Ross Pfahler",
+  "license": "ISC"
 }
